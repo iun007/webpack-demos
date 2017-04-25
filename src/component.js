@@ -1,1 +1,1 @@
-exports.name = 'zfpx';
+export var name = 'zfpx';

@@ -68,16 +68,26 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-exports.name = 'zfpx';
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var name = exports.name = 'zfpx';
 
 /***/ }),
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var comp = __webpack_require__(0);
-console.log(comp.name);
+"use strict";
+
+
+var _component = __webpack_require__(0);
+
+console.log(_component.name);
 
 /***/ })
 /******/ ]);

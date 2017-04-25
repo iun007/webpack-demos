@@ -1,2 +1,2 @@
-var comp = require('./component.js');
-console.log(comp.name);
+import {name} from './component.js';
+console.log(name);
